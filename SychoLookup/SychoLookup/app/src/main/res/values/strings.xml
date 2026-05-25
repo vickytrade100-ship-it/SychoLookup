@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sycho Lookup</string>
+    <string name="search_hint">Enter Mobile (92…) or CNIC number</string>
+    <string name="search_button">Search</string>
+    <string name="history_title">Search History</string>
+    <string name="no_history">No searches yet</string>
+    <string name="no_results">No results found</string>
+    <string name="error_invalid_input">Enter a valid mobile (starting with 92) or CNIC number</string>
+    <string name="developer_credit">Enterprise API — @Sychox2006</string>
+</resources>
