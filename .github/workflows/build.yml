@@ -22,8 +22,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Find project structure
-        run: find . -name "gradlew" -type f
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Generate Gradle Wrapper
+        run: gradle wrapper
+        working-directory: SychoLookup/SychoLookup
 
       - name: Make gradlew executable
         run: chmod +x ./gradlew
